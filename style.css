@@ -1,0 +1,134 @@
+body {
+    background-image: url('photos/star.jpg');
+    background-size: auto;
+}
+
+.welcome-text {
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.welcome-text h1{
+    font-size: 120px;
+    padding: 20px;
+    font-family: copperplate, fantasy;
+    border: solid;
+    transition: 1s;
+}
+.welcome-text p{
+    font-size: 25px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.welcome-text a{
+    margin: 10px;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.welcome-text a:hover{
+    color: red;
+}
+
+.profile {
+    background-image: url('photos/dark swirl background.jpeg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 650px;
+}
+
+.about{
+    background: black;
+    text-align: center;
+    margin: 50px;
+    border: solid;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.about h1{
+    font-size: 200px;
+    margin: 25px;
+    color: purple;
+    font-family: 'copperplate', fantasy;
+}
+
+.about p{
+    font-family: 'Helvetica', sans-serif;
+    margin: 25px;
+    font-size: 30px;
+    color: white;
+}
+
+.our-team h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: 'copperplate', fantasy;
+    margin: 25px;
+}
+
+.image{
+    width: 170px; 
+    height: 170px; 
+    border-radius: 50%; 
+    border: solid; 
+    border-color: yellow; 
+    margin: 8px;
+    transition: 1.5s, 1.5s
+}
+
+.game-product h1{
+    font-size: 200px;
+    color: purple;
+    text-align: center;
+    font-family: 'copperplate', fantasy;
+    margin: 25px;
+}
+
+.game-product img{
+    width: 50%;
+    height: 50%;
+    margin: 30px;
+}
+
+.game-desc{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 30px;
+    margin: 25px;
+    color: white;
+}
+
+.swot h1{
+    text-align: center;
+    font-size: 245px;
+    color: purple;
+    font-family: 'copperplate', fantasy;
+}
+
+.swot p{
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+    font-family: 'copperplate', fantasy;
+}
+
+.swot-desc table, td{
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: solid black;
+    border-collapse: collapse;
+    font-size: 35px;
+    letter-spacing: -1px;
+    font-style: italic;
+    transition: 1s;
+}
+
+.swot-desc table, td:hover{
+    background-color: black;
+    color: white;
+}
